@@ -815,22 +815,22 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <vertex x="0" y="15.494"/>
 <vertex x="1.524" y="15.494"/>
 </polygon>
-<text x="13.462" y="1.524" size="0.6096" layer="121" align="bottom-right">GND</text>
-<text x="2.794" y="1.524" size="0.6096" layer="121">VCC</text>
-<text x="2.794" y="3.556" size="0.6096" layer="121">GPIO13</text>
-<text x="2.794" y="5.588" size="0.6096" layer="121">GPIO12</text>
-<text x="2.794" y="7.62" size="0.6096" layer="121">GPIO14</text>
-<text x="2.794" y="9.652" size="0.6096" layer="121">GPIO16</text>
-<text x="2.794" y="11.684" size="0.6096" layer="121">CH_PD</text>
-<text x="2.794" y="13.716" size="0.6096" layer="121">ADC</text>
-<text x="2.794" y="15.748" size="0.6096" layer="121">REST</text>
-<text x="13.462" y="3.556" size="0.6096" layer="121" align="bottom-right">GPIO15</text>
-<text x="13.462" y="5.588" size="0.6096" layer="121" align="bottom-right">GPIO2</text>
-<text x="13.462" y="7.62" size="0.6096" layer="121" align="bottom-right">GPIO0</text>
-<text x="13.462" y="9.652" size="0.6096" layer="121" align="bottom-right">GPIO5</text>
-<text x="13.462" y="11.684" size="0.6096" layer="121" align="bottom-right">GPIO4</text>
-<text x="13.462" y="15.748" size="0.6096" layer="121" align="bottom-right">TXD</text>
-<text x="13.462" y="13.716" size="0.6096" layer="121" align="bottom-right">RXD</text>
+<text x="17.018" y="1.524" size="0.6096" layer="121">GND</text>
+<text x="-0.762" y="1.524" size="0.6096" layer="121" align="bottom-right">VCC</text>
+<text x="-0.762" y="3.556" size="0.6096" layer="121" align="bottom-right">GPIO13</text>
+<text x="-0.762" y="5.588" size="0.6096" layer="121" align="bottom-right">GPIO12</text>
+<text x="-0.762" y="7.62" size="0.6096" layer="121" align="bottom-right">GPIO14</text>
+<text x="-0.762" y="9.652" size="0.6096" layer="121" align="bottom-right">GPIO16</text>
+<text x="-0.762" y="11.684" size="0.6096" layer="121" align="bottom-right">CH_PD</text>
+<text x="-0.762" y="13.716" size="0.6096" layer="121" align="bottom-right">ADC</text>
+<text x="-0.762" y="15.748" size="0.6096" layer="121" align="bottom-right">REST</text>
+<text x="17.018" y="3.556" size="0.6096" layer="121">GPIO15</text>
+<text x="17.018" y="5.588" size="0.6096" layer="121">GPIO2</text>
+<text x="17.018" y="7.62" size="0.6096" layer="121">GPIO0</text>
+<text x="17.018" y="9.652" size="0.6096" layer="121">GPIO5</text>
+<text x="17.018" y="11.684" size="0.6096" layer="121">GPIO4</text>
+<text x="17.018" y="15.748" size="0.6096" layer="121">TXD</text>
+<text x="17.018" y="13.716" size="0.6096" layer="121">RXD</text>
 <polygon width="0.127" layer="1">
 <vertex x="1.524" y="14.478"/>
 <vertex x="0" y="14.478"/>
