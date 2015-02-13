@@ -126,204 +126,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Wi07">
-<packages>
-<package name="WI07-12">
-<description>Full Arduino MEGA footprint</description>
-<wire x1="0" y1="23.876" x2="16.256" y2="23.876" width="0.2032" layer="20"/>
-<wire x1="16.256" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="23.876" width="0.2032" layer="20"/>
-<wire x1="16.256" y1="23.876" x2="16.256" y2="0" width="0.2032" layer="20"/>
-<polygon width="0.127" layer="1">
-<vertex x="1.524" y="16.51"/>
-<vertex x="0" y="16.51"/>
-<vertex x="0" y="15.494"/>
-<vertex x="1.524" y="15.494"/>
-</polygon>
-<text x="13.462" y="1.524" size="0.6096" layer="121" align="bottom-right">GND</text>
-<text x="2.794" y="1.524" size="0.6096" layer="121">VCC</text>
-<text x="2.794" y="3.556" size="0.6096" layer="121">GPIO13</text>
-<text x="2.794" y="5.588" size="0.6096" layer="121">GPIO12</text>
-<text x="2.794" y="7.62" size="0.6096" layer="121">GPIO14</text>
-<text x="2.794" y="9.652" size="0.6096" layer="121">GPIO16</text>
-<text x="2.794" y="11.684" size="0.6096" layer="121">CH_PD</text>
-<text x="2.794" y="13.716" size="0.6096" layer="121">ADC</text>
-<text x="2.794" y="15.748" size="0.6096" layer="121">REST</text>
-<text x="13.462" y="3.556" size="0.6096" layer="121" align="bottom-right">GPIO15</text>
-<text x="13.462" y="5.588" size="0.6096" layer="121" align="bottom-right">GPIO2</text>
-<text x="13.462" y="7.62" size="0.6096" layer="121" align="bottom-right">GPIO0</text>
-<text x="13.462" y="9.652" size="0.6096" layer="121" align="bottom-right">GPIO5</text>
-<text x="13.462" y="11.684" size="0.6096" layer="121" align="bottom-right">GPIO4</text>
-<text x="13.462" y="15.748" size="0.6096" layer="121" align="bottom-right">TXD</text>
-<text x="13.462" y="13.716" size="0.6096" layer="121" align="bottom-right">RXD</text>
-<polygon width="0.127" layer="1">
-<vertex x="1.524" y="14.478"/>
-<vertex x="0" y="14.478"/>
-<vertex x="0" y="13.462"/>
-<vertex x="1.524" y="13.462"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="1.524" y="12.446"/>
-<vertex x="0" y="12.446"/>
-<vertex x="0" y="11.43"/>
-<vertex x="1.524" y="11.43"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="1.524" y="10.414"/>
-<vertex x="0" y="10.414"/>
-<vertex x="0" y="9.398"/>
-<vertex x="1.524" y="9.398"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="1.524" y="8.382"/>
-<vertex x="0" y="8.382"/>
-<vertex x="0" y="7.366"/>
-<vertex x="1.524" y="7.366"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="1.524" y="6.35"/>
-<vertex x="0" y="6.35"/>
-<vertex x="0" y="5.334"/>
-<vertex x="1.524" y="5.334"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="1.524" y="4.318"/>
-<vertex x="0" y="4.318"/>
-<vertex x="0" y="3.302"/>
-<vertex x="1.524" y="3.302"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="1.524" y="2.286"/>
-<vertex x="0" y="2.286"/>
-<vertex x="0" y="1.27"/>
-<vertex x="1.524" y="1.27"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="16.256" y="16.51"/>
-<vertex x="14.732" y="16.51"/>
-<vertex x="14.732" y="15.494"/>
-<vertex x="16.256" y="15.494"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="16.256" y="14.478"/>
-<vertex x="14.732" y="14.478"/>
-<vertex x="14.732" y="13.462"/>
-<vertex x="16.256" y="13.462"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="16.256" y="12.446"/>
-<vertex x="14.732" y="12.446"/>
-<vertex x="14.732" y="11.43"/>
-<vertex x="16.256" y="11.43"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="16.256" y="10.414"/>
-<vertex x="14.732" y="10.414"/>
-<vertex x="14.732" y="9.398"/>
-<vertex x="16.256" y="9.398"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="16.256" y="8.382"/>
-<vertex x="14.732" y="8.382"/>
-<vertex x="14.732" y="7.366"/>
-<vertex x="16.256" y="7.366"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="16.256" y="6.35"/>
-<vertex x="14.732" y="6.35"/>
-<vertex x="14.732" y="5.334"/>
-<vertex x="16.256" y="5.334"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="16.256" y="4.318"/>
-<vertex x="14.732" y="4.318"/>
-<vertex x="14.732" y="3.302"/>
-<vertex x="16.256" y="3.302"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="16.256" y="2.286"/>
-<vertex x="14.732" y="2.286"/>
-<vertex x="14.732" y="1.27"/>
-<vertex x="16.256" y="1.27"/>
-</polygon>
-<pad name="REST" x="1.016" y="16.002" drill="0.6985" shape="square"/>
-<pad name="ADC" x="1.016" y="13.97" drill="0.6985" shape="square"/>
-<pad name="CH_PD" x="1.016" y="11.938" drill="0.6985" shape="square"/>
-<pad name="GPIO16" x="1.016" y="9.906" drill="0.6985" shape="square"/>
-<pad name="GPIO14" x="1.016" y="7.874" drill="0.6985" shape="square"/>
-<pad name="GPIO12" x="1.016" y="5.842" drill="0.6985" shape="square"/>
-<pad name="GPIO13" x="1.016" y="3.81" drill="0.6985" shape="square"/>
-<pad name="VCC" x="1.016" y="1.778" drill="0.6985" shape="square"/>
-<pad name="GND" x="15.24" y="1.778" drill="0.6985" shape="square"/>
-<pad name="GPIO15" x="15.24" y="3.81" drill="0.6985" shape="square"/>
-<pad name="GPIO2" x="15.24" y="5.842" drill="0.6985" shape="square"/>
-<pad name="GPIO0" x="15.24" y="7.874" drill="0.6985" shape="square"/>
-<pad name="GPIO5" x="15.24" y="9.906" drill="0.6985" shape="square"/>
-<pad name="GPIO4" x="15.24" y="11.938" drill="0.6985" shape="square"/>
-<pad name="RXD" x="15.24" y="13.97" drill="0.6985" shape="square"/>
-<pad name="TXD" x="15.24" y="16.002" drill="0.6985" shape="square"/>
-</package>
-</packages>
-<symbols>
-<symbol name="WI07-12">
-<wire x1="-15.24" y1="30.48" x2="15.24" y2="30.48" width="0.254" layer="94"/>
-<wire x1="15.24" y1="30.48" x2="15.24" y2="53.34" width="0.254" layer="94"/>
-<wire x1="15.24" y1="53.34" x2="-15.24" y2="53.34" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="53.34" x2="-15.24" y2="30.48" width="0.254" layer="94"/>
-<text x="-15.24" y="54.102" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="27.94" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="ADC" x="-20.32" y="48.26" length="middle" direction="in"/>
-<pin name="CH_PD" x="-20.32" y="45.72" length="middle" direction="in"/>
-<pin name="VCC" x="-20.32" y="33.02" length="middle" direction="pwr"/>
-<pin name="5" x="20.32" y="43.18" length="middle" rot="R180"/>
-<pin name="0" x="20.32" y="40.64" length="middle" rot="R180"/>
-<pin name="TXD" x="20.32" y="50.8" length="middle" direction="in" rot="R180"/>
-<pin name="4" x="20.32" y="45.72" length="middle" rot="R180"/>
-<pin name="RXD" x="20.32" y="48.26" length="middle" direction="out" rot="R180"/>
-<pin name="12" x="-20.32" y="38.1" length="middle"/>
-<pin name="13" x="-20.32" y="35.56" length="middle"/>
-<pin name="GND" x="20.32" y="33.02" length="middle" direction="pwr" rot="R180"/>
-<pin name="15" x="20.32" y="35.56" length="middle" rot="R180"/>
-<pin name="2" x="20.32" y="38.1" length="middle" rot="R180"/>
-<pin name="16" x="-20.32" y="43.18" length="middle"/>
-<pin name="14" x="-20.32" y="40.64" length="middle"/>
-<pin name="RESET" x="-20.32" y="50.8" length="middle" direction="in"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WI07-12" prefix="U">
-<description>Wi07-12 Footprint</description>
-<gates>
-<gate name="G$1" symbol="WI07-12" x="0" y="0"/>
-</gates>
-<devices>
-<device name="FULL" package="WI07-12">
-<connects>
-<connect gate="G$1" pin="0" pad="GPIO0"/>
-<connect gate="G$1" pin="12" pad="GPIO12"/>
-<connect gate="G$1" pin="13" pad="GPIO13"/>
-<connect gate="G$1" pin="14" pad="GPIO14"/>
-<connect gate="G$1" pin="15" pad="GPIO15"/>
-<connect gate="G$1" pin="16" pad="GPIO16"/>
-<connect gate="G$1" pin="2" pad="GPIO2"/>
-<connect gate="G$1" pin="4" pad="GPIO4"/>
-<connect gate="G$1" pin="5" pad="GPIO5"/>
-<connect gate="G$1" pin="ADC" pad="ADC"/>
-<connect gate="G$1" pin="CH_PD" pad="CH_PD"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="RESET" pad="REST"/>
-<connect gate="G$1" pin="RXD" pad="RXD"/>
-<connect gate="G$1" pin="TXD" pad="TXD"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
@@ -999,6 +801,204 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </deviceset>
 </devicesets>
 </library>
+<library name="ESP">
+<packages>
+<package name="WI07-12">
+<description>Wi07-12 Footprint with extra width for soldering.</description>
+<wire x1="0" y1="23.876" x2="16.256" y2="23.876" width="0.2032" layer="20"/>
+<wire x1="16.256" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="23.876" width="0.2032" layer="20"/>
+<wire x1="16.256" y1="23.876" x2="16.256" y2="0" width="0.2032" layer="20"/>
+<polygon width="0.127" layer="1">
+<vertex x="1.524" y="16.51"/>
+<vertex x="0" y="16.51"/>
+<vertex x="0" y="15.494"/>
+<vertex x="1.524" y="15.494"/>
+</polygon>
+<text x="13.462" y="1.524" size="0.6096" layer="121" align="bottom-right">GND</text>
+<text x="2.794" y="1.524" size="0.6096" layer="121">VCC</text>
+<text x="2.794" y="3.556" size="0.6096" layer="121">GPIO13</text>
+<text x="2.794" y="5.588" size="0.6096" layer="121">GPIO12</text>
+<text x="2.794" y="7.62" size="0.6096" layer="121">GPIO14</text>
+<text x="2.794" y="9.652" size="0.6096" layer="121">GPIO16</text>
+<text x="2.794" y="11.684" size="0.6096" layer="121">CH_PD</text>
+<text x="2.794" y="13.716" size="0.6096" layer="121">ADC</text>
+<text x="2.794" y="15.748" size="0.6096" layer="121">REST</text>
+<text x="13.462" y="3.556" size="0.6096" layer="121" align="bottom-right">GPIO15</text>
+<text x="13.462" y="5.588" size="0.6096" layer="121" align="bottom-right">GPIO2</text>
+<text x="13.462" y="7.62" size="0.6096" layer="121" align="bottom-right">GPIO0</text>
+<text x="13.462" y="9.652" size="0.6096" layer="121" align="bottom-right">GPIO5</text>
+<text x="13.462" y="11.684" size="0.6096" layer="121" align="bottom-right">GPIO4</text>
+<text x="13.462" y="15.748" size="0.6096" layer="121" align="bottom-right">TXD</text>
+<text x="13.462" y="13.716" size="0.6096" layer="121" align="bottom-right">RXD</text>
+<polygon width="0.127" layer="1">
+<vertex x="1.524" y="14.478"/>
+<vertex x="0" y="14.478"/>
+<vertex x="0" y="13.462"/>
+<vertex x="1.524" y="13.462"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="1.524" y="12.446"/>
+<vertex x="0" y="12.446"/>
+<vertex x="0" y="11.43"/>
+<vertex x="1.524" y="11.43"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="1.524" y="10.414"/>
+<vertex x="0" y="10.414"/>
+<vertex x="0" y="9.398"/>
+<vertex x="1.524" y="9.398"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="1.524" y="8.382"/>
+<vertex x="0" y="8.382"/>
+<vertex x="0" y="7.366"/>
+<vertex x="1.524" y="7.366"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="1.524" y="6.35"/>
+<vertex x="0" y="6.35"/>
+<vertex x="0" y="5.334"/>
+<vertex x="1.524" y="5.334"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="1.524" y="4.318"/>
+<vertex x="0" y="4.318"/>
+<vertex x="0" y="3.302"/>
+<vertex x="1.524" y="3.302"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="1.524" y="2.286"/>
+<vertex x="0" y="2.286"/>
+<vertex x="0" y="1.27"/>
+<vertex x="1.524" y="1.27"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="16.256" y="16.51"/>
+<vertex x="14.732" y="16.51"/>
+<vertex x="14.732" y="15.494"/>
+<vertex x="16.256" y="15.494"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="16.256" y="14.478"/>
+<vertex x="14.732" y="14.478"/>
+<vertex x="14.732" y="13.462"/>
+<vertex x="16.256" y="13.462"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="16.256" y="12.446"/>
+<vertex x="14.732" y="12.446"/>
+<vertex x="14.732" y="11.43"/>
+<vertex x="16.256" y="11.43"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="16.256" y="10.414"/>
+<vertex x="14.732" y="10.414"/>
+<vertex x="14.732" y="9.398"/>
+<vertex x="16.256" y="9.398"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="16.256" y="8.382"/>
+<vertex x="14.732" y="8.382"/>
+<vertex x="14.732" y="7.366"/>
+<vertex x="16.256" y="7.366"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="16.256" y="6.35"/>
+<vertex x="14.732" y="6.35"/>
+<vertex x="14.732" y="5.334"/>
+<vertex x="16.256" y="5.334"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="16.256" y="4.318"/>
+<vertex x="14.732" y="4.318"/>
+<vertex x="14.732" y="3.302"/>
+<vertex x="16.256" y="3.302"/>
+</polygon>
+<polygon width="0.127" layer="1">
+<vertex x="16.256" y="2.286"/>
+<vertex x="14.732" y="2.286"/>
+<vertex x="14.732" y="1.27"/>
+<vertex x="16.256" y="1.27"/>
+</polygon>
+<pad name="REST" x="0.254" y="16.002" drill="0.6985" shape="square"/>
+<pad name="ADC" x="0.254" y="13.97" drill="0.6985" shape="square"/>
+<pad name="CH_PD" x="0.254" y="11.938" drill="0.6985" shape="square"/>
+<pad name="GPIO16" x="0.254" y="9.906" drill="0.6985" shape="square"/>
+<pad name="GPIO14" x="0.254" y="7.874" drill="0.6985" shape="square"/>
+<pad name="GPIO12" x="0.254" y="5.842" drill="0.6985" shape="square"/>
+<pad name="GPIO13" x="0.254" y="3.81" drill="0.6985" shape="square"/>
+<pad name="VCC" x="0.254" y="1.778" drill="0.6985" shape="square"/>
+<pad name="GND" x="16.002" y="1.778" drill="0.6985" shape="square"/>
+<pad name="GPIO15" x="16.002" y="3.81" drill="0.6985" shape="square"/>
+<pad name="GPIO2" x="16.002" y="5.842" drill="0.6985" shape="square"/>
+<pad name="GPIO0" x="16.002" y="7.874" drill="0.6985" shape="square"/>
+<pad name="GPIO5" x="16.002" y="9.906" drill="0.6985" shape="square"/>
+<pad name="GPIO4" x="16.002" y="11.938" drill="0.6985" shape="square"/>
+<pad name="RXD" x="16.002" y="13.97" drill="0.6985" shape="square"/>
+<pad name="TXD" x="16.002" y="16.002" drill="0.6985" shape="square"/>
+</package>
+</packages>
+<symbols>
+<symbol name="WI07-12">
+<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="12.7" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="12.7" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
+<text x="-15.24" y="13.462" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="ADC" x="-20.32" y="7.62" length="middle" direction="in"/>
+<pin name="CH_PD" x="-20.32" y="5.08" length="middle" direction="in"/>
+<pin name="VCC" x="-20.32" y="-7.62" length="middle" direction="pwr"/>
+<pin name="5" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="0" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="TXD" x="20.32" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="4" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="RXD" x="20.32" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="12" x="-20.32" y="-2.54" length="middle"/>
+<pin name="13" x="-20.32" y="-5.08" length="middle"/>
+<pin name="GND" x="20.32" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="15" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="2" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="16" x="-20.32" y="2.54" length="middle"/>
+<pin name="14" x="-20.32" y="0" length="middle"/>
+<pin name="RESET" x="-20.32" y="10.16" length="middle" direction="in"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WI07-12" prefix="U">
+<description>Wi07-12 Footprint</description>
+<gates>
+<gate name="G$1" symbol="WI07-12" x="0" y="0"/>
+</gates>
+<devices>
+<device name="FULL" package="WI07-12">
+<connects>
+<connect gate="G$1" pin="0" pad="GPIO0"/>
+<connect gate="G$1" pin="12" pad="GPIO12"/>
+<connect gate="G$1" pin="13" pad="GPIO13"/>
+<connect gate="G$1" pin="14" pad="GPIO14"/>
+<connect gate="G$1" pin="15" pad="GPIO15"/>
+<connect gate="G$1" pin="16" pad="GPIO16"/>
+<connect gate="G$1" pin="2" pad="GPIO2"/>
+<connect gate="G$1" pin="4" pad="GPIO4"/>
+<connect gate="G$1" pin="5" pad="GPIO5"/>
+<connect gate="G$1" pin="ADC" pad="ADC"/>
+<connect gate="G$1" pin="CH_PD" pad="CH_PD"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RESET" pad="REST"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1009,18 +1009,18 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </class>
 </classes>
 <parts>
-<part name="U1" library="Wi07" deviceset="WI07-12" device="FULL"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M08" device=""/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M08" device=""/>
+<part name="U1" library="ESP" deviceset="WI07-12" device="FULL"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="73.66" y="15.24"/>
 <instance part="JP1" gate="G$1" x="40.64" y="55.88"/>
 <instance part="JP2" gate="G$1" x="104.14" y="55.88" rot="MR0"/>
+<instance part="U1" gate="G$1" x="73.66" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -1028,113 +1028,113 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="N$1" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
 <wire x1="45.72" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<pinref part="U1" gate="G$1" pin="13"/>
 <wire x1="45.72" y1="50.8" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="13"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="12"/>
 <pinref part="JP1" gate="G$1" pin="3"/>
 <wire x1="53.34" y1="53.34" x2="45.72" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="4"/>
-<pinref part="U1" gate="G$1" pin="14"/>
 <wire x1="45.72" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="14"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="16"/>
 <pinref part="JP1" gate="G$1" pin="5"/>
 <wire x1="53.34" y1="58.42" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="16"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="6"/>
-<pinref part="U1" gate="G$1" pin="CH_PD"/>
 <wire x1="45.72" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="CH_PD"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="ADC"/>
 <pinref part="JP1" gate="G$1" pin="7"/>
 <wire x1="53.34" y1="63.5" x2="45.72" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="ADC"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="8"/>
-<pinref part="U1" gate="G$1" pin="RESET"/>
 <wire x1="45.72" y1="66.04" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="RESET"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="TXD"/>
 <pinref part="JP2" gate="G$1" pin="8"/>
 <wire x1="93.98" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="TXD"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="7"/>
-<pinref part="U1" gate="G$1" pin="RXD"/>
 <wire x1="99.06" y1="63.5" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="RXD"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="4"/>
 <pinref part="JP2" gate="G$1" pin="6"/>
 <wire x1="93.98" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="5"/>
-<pinref part="U1" gate="G$1" pin="5"/>
 <wire x1="99.06" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="0"/>
 <pinref part="JP2" gate="G$1" pin="4"/>
 <wire x1="93.98" y1="55.88" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="0"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="3"/>
-<pinref part="U1" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="15"/>
 <pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="15"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="99.06" y1="48.26" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 </segment>
 </net>
 </nets>
