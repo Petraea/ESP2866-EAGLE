@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -10611,9 +10611,31 @@
 <pad name="RXD" x="16.382" y="-10.09" drill="0.03" diameter="1.15" shape="square"/>
 <pad name="TXD" x="16.382" y="-8.058" drill="0.03" diameter="1.15" shape="square"/>
 </package>
+<package name="ESP01">
+<wire x1="0" y1="0" x2="14.3" y2="0" width="0.127" layer="20"/>
+<wire x1="14.3" y1="0" x2="14.3" y2="24.8" width="0.127" layer="20"/>
+<wire x1="14.3" y1="24.8" x2="0" y2="24.8" width="0.127" layer="20"/>
+<wire x1="0" y1="24.8" x2="0" y2="0" width="0.127" layer="20"/>
+<pad name="GND" x="3.375" y="4.21" drill="0.8" shape="square"/>
+<pad name="GPIO2" x="5.915" y="4.21" drill="0.8" shape="square"/>
+<pad name="GPIO0" x="8.455" y="4.21" drill="0.8" shape="square"/>
+<pad name="URXD" x="10.995" y="4.21" drill="0.8" shape="square"/>
+<pad name="UTXD" x="3.375" y="1.67" drill="0.8" shape="square"/>
+<pad name="CH_PD" x="5.915" y="1.67" drill="0.8" shape="square"/>
+<pad name="GPIO16" x="8.455" y="1.67" drill="0.8" shape="square"/>
+<pad name="VCC" x="10.995" y="1.67" drill="0.8" shape="square"/>
+<text x="3.6" y="5.6" size="0.6096" layer="20" rot="R90">GND</text>
+<text x="3.6" y="-0.2" size="0.6096" layer="20" rot="R90" align="bottom-right">UTXD</text>
+<text x="6.2" y="5.6" size="0.6096" layer="20" rot="R90">GPIO2</text>
+<text x="8.6" y="5.6" size="0.6096" layer="20" rot="R90">GPIO0</text>
+<text x="11.2" y="5.6" size="0.6096" layer="20" rot="R90">URXD</text>
+<text x="6" y="-0.2" size="0.6096" layer="20" rot="R90" align="bottom-right">CH_PD</text>
+<text x="8.6" y="-0.2" size="0.6096" layer="20" rot="R90" align="bottom-right">GPIO16</text>
+<text x="11.2" y="-0.2" size="0.6096" layer="20" rot="R90" align="bottom-right">VCC</text>
+</package>
 </packages>
 <symbols>
-<symbol name="WI07-12">
+<symbol name="ESP12">
 <wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-10.16" x2="15.24" y2="12.7" width="0.254" layer="94"/>
 <wire x1="15.24" y1="12.7" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
@@ -10679,12 +10701,28 @@
 <pin name="15" x="-20.32" y="0" length="middle"/>
 <pin name="0" x="-20.32" y="-5.08" length="middle"/>
 </symbol>
+<symbol name="ESP01">
+<wire x1="-10.16" y1="-5.08" x2="12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="CH_PD" x="-15.24" y="-2.54" length="middle" direction="in"/>
+<pin name="VCC" x="17.78" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="16" x="-15.24" y="0" length="middle"/>
+<pin name="TXD" x="17.78" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="RXD" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="17.78" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="2" x="-15.24" y="5.08" length="middle"/>
+<pin name="0" x="-15.24" y="2.54" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ESP07" prefix="U">
 <description>ESP07 Footprint</description>
 <gates>
-<gate name="G$1" symbol="WI07-12" x="0" y="0"/>
+<gate name="G$1" symbol="ESP12" x="0" y="0"/>
 </gates>
 <devices>
 <device name="FULL" package="ESP07">
@@ -10743,7 +10781,7 @@
 <deviceset name="ESP12" prefix="U">
 <description>Wi07-12 Footprint</description>
 <gates>
-<gate name="G$1" symbol="WI07-12" x="0" y="0"/>
+<gate name="G$1" symbol="ESP12" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="ESP12">
@@ -10763,6 +10801,28 @@
 <connect gate="G$1" pin="RESET" pad="REST"/>
 <connect gate="G$1" pin="RXD" pad="RXD"/>
 <connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP01">
+<gates>
+<gate name="G$1" symbol="ESP01" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ESP01">
+<connects>
+<connect gate="G$1" pin="0" pad="GPIO0"/>
+<connect gate="G$1" pin="16" pad="GPIO16"/>
+<connect gate="G$1" pin="2" pad="GPIO2"/>
+<connect gate="G$1" pin="CH_PD" pad="CH_PD"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="RXD" pad="URXD"/>
+<connect gate="G$1" pin="TXD" pad="UTXD"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
