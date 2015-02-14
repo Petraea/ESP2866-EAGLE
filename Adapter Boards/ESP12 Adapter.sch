@@ -803,140 +803,139 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </library>
 <library name="ESP">
 <packages>
-<package name="WI07-12">
-<description>Wi07-12 Footprint with extra width for soldering.</description>
-<wire x1="0" y1="23.876" x2="16.256" y2="23.876" width="0.2032" layer="20"/>
-<wire x1="16.256" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="23.876" width="0.2032" layer="20"/>
-<wire x1="16.256" y1="23.876" x2="16.256" y2="0" width="0.2032" layer="20"/>
+<package name="ESP12">
+<wire x1="-0.02" y1="0.016" x2="16.236" y2="0.016" width="0.2032" layer="20"/>
+<wire x1="16.236" y1="-24.06" x2="-0.02" y2="-24.06" width="0.2032" layer="20"/>
+<wire x1="-0.02" y1="-24.06" x2="-0.02" y2="0.016" width="0.2032" layer="20"/>
+<wire x1="16.236" y1="0.016" x2="16.236" y2="-24.06" width="0.2032" layer="20"/>
 <polygon width="0.127" layer="1">
-<vertex x="1.524" y="16.51"/>
-<vertex x="0" y="16.51"/>
-<vertex x="0" y="15.494"/>
-<vertex x="1.524" y="15.494"/>
+<vertex x="1.504" y="-7.55"/>
+<vertex x="-0.42" y="-7.55"/>
+<vertex x="-0.42" y="-8.566"/>
+<vertex x="1.504" y="-8.566"/>
 </polygon>
-<text x="17.018" y="1.524" size="0.6096" layer="121">GND</text>
-<text x="-0.762" y="1.524" size="0.6096" layer="121" align="bottom-right">VCC</text>
-<text x="-0.762" y="3.556" size="0.6096" layer="121" align="bottom-right">GPIO13</text>
-<text x="-0.762" y="5.588" size="0.6096" layer="121" align="bottom-right">GPIO12</text>
-<text x="-0.762" y="7.62" size="0.6096" layer="121" align="bottom-right">GPIO14</text>
-<text x="-0.762" y="9.652" size="0.6096" layer="121" align="bottom-right">GPIO16</text>
-<text x="-0.762" y="11.684" size="0.6096" layer="121" align="bottom-right">CH_PD</text>
-<text x="-0.762" y="13.716" size="0.6096" layer="121" align="bottom-right">ADC</text>
-<text x="-0.762" y="15.748" size="0.6096" layer="121" align="bottom-right">REST</text>
-<text x="17.018" y="3.556" size="0.6096" layer="121">GPIO15</text>
-<text x="17.018" y="5.588" size="0.6096" layer="121">GPIO2</text>
-<text x="17.018" y="7.62" size="0.6096" layer="121">GPIO0</text>
-<text x="17.018" y="9.652" size="0.6096" layer="121">GPIO5</text>
-<text x="17.018" y="11.684" size="0.6096" layer="121">GPIO4</text>
-<text x="17.018" y="15.748" size="0.6096" layer="121">TXD</text>
-<text x="17.018" y="13.716" size="0.6096" layer="121">RXD</text>
+<text x="17.398" y="-22.536" size="0.6096" layer="121">GND</text>
+<text x="-1.182" y="-22.536" size="0.6096" layer="121" align="bottom-right">VCC</text>
+<text x="-1.182" y="-20.504" size="0.6096" layer="121" align="bottom-right">GPIO13</text>
+<text x="-1.182" y="-18.472" size="0.6096" layer="121" align="bottom-right">GPIO12</text>
+<text x="-1.182" y="-16.44" size="0.6096" layer="121" align="bottom-right">GPIO14</text>
+<text x="-1.182" y="-14.408" size="0.6096" layer="121" align="bottom-right">GPIO16</text>
+<text x="-1.182" y="-12.376" size="0.6096" layer="121" align="bottom-right">CH_PD</text>
+<text x="-1.182" y="-10.344" size="0.6096" layer="121" align="bottom-right">ADC</text>
+<text x="-1.182" y="-8.312" size="0.6096" layer="121" align="bottom-right">REST</text>
+<text x="17.398" y="-20.504" size="0.6096" layer="121">GPIO15</text>
+<text x="17.398" y="-18.472" size="0.6096" layer="121">GPIO2</text>
+<text x="17.398" y="-16.44" size="0.6096" layer="121">GPIO0</text>
+<text x="17.398" y="-14.408" size="0.6096" layer="121">GPIO5</text>
+<text x="17.398" y="-12.376" size="0.6096" layer="121">GPIO4</text>
+<text x="17.398" y="-8.312" size="0.6096" layer="121">TXD</text>
+<text x="17.398" y="-10.344" size="0.6096" layer="121">RXD</text>
 <polygon width="0.127" layer="1">
-<vertex x="1.524" y="14.478"/>
-<vertex x="0" y="14.478"/>
-<vertex x="0" y="13.462"/>
-<vertex x="1.524" y="13.462"/>
-</polygon>
-<polygon width="0.127" layer="1">
-<vertex x="1.524" y="12.446"/>
-<vertex x="0" y="12.446"/>
-<vertex x="0" y="11.43"/>
-<vertex x="1.524" y="11.43"/>
+<vertex x="1.504" y="-9.582"/>
+<vertex x="-0.42" y="-9.582"/>
+<vertex x="-0.42" y="-10.598"/>
+<vertex x="1.504" y="-10.598"/>
 </polygon>
 <polygon width="0.127" layer="1">
-<vertex x="1.524" y="10.414"/>
-<vertex x="0" y="10.414"/>
-<vertex x="0" y="9.398"/>
-<vertex x="1.524" y="9.398"/>
+<vertex x="1.504" y="-11.614"/>
+<vertex x="-0.42" y="-11.614"/>
+<vertex x="-0.42" y="-12.63"/>
+<vertex x="1.504" y="-12.63"/>
 </polygon>
 <polygon width="0.127" layer="1">
-<vertex x="1.524" y="8.382"/>
-<vertex x="0" y="8.382"/>
-<vertex x="0" y="7.366"/>
-<vertex x="1.524" y="7.366"/>
+<vertex x="1.504" y="-13.646"/>
+<vertex x="-0.42" y="-13.646"/>
+<vertex x="-0.42" y="-14.662"/>
+<vertex x="1.504" y="-14.662"/>
 </polygon>
 <polygon width="0.127" layer="1">
-<vertex x="1.524" y="6.35"/>
-<vertex x="0" y="6.35"/>
-<vertex x="0" y="5.334"/>
-<vertex x="1.524" y="5.334"/>
+<vertex x="1.504" y="-15.678"/>
+<vertex x="-0.42" y="-15.678"/>
+<vertex x="-0.42" y="-16.694"/>
+<vertex x="1.504" y="-16.694"/>
 </polygon>
 <polygon width="0.127" layer="1">
-<vertex x="1.524" y="4.318"/>
-<vertex x="0" y="4.318"/>
-<vertex x="0" y="3.302"/>
-<vertex x="1.524" y="3.302"/>
+<vertex x="1.504" y="-17.71"/>
+<vertex x="-0.42" y="-17.71"/>
+<vertex x="-0.42" y="-18.726"/>
+<vertex x="1.504" y="-18.726"/>
 </polygon>
 <polygon width="0.127" layer="1">
-<vertex x="1.524" y="2.286"/>
-<vertex x="0" y="2.286"/>
-<vertex x="0" y="1.27"/>
-<vertex x="1.524" y="1.27"/>
+<vertex x="1.504" y="-19.742"/>
+<vertex x="-0.42" y="-19.742"/>
+<vertex x="-0.42" y="-20.758"/>
+<vertex x="1.504" y="-20.758"/>
 </polygon>
 <polygon width="0.127" layer="1">
-<vertex x="16.256" y="16.51"/>
-<vertex x="14.732" y="16.51"/>
-<vertex x="14.732" y="15.494"/>
-<vertex x="16.256" y="15.494"/>
+<vertex x="1.504" y="-21.774"/>
+<vertex x="-0.42" y="-21.774"/>
+<vertex x="-0.42" y="-22.79"/>
+<vertex x="1.504" y="-22.79"/>
 </polygon>
 <polygon width="0.127" layer="1">
-<vertex x="16.256" y="14.478"/>
-<vertex x="14.732" y="14.478"/>
-<vertex x="14.732" y="13.462"/>
-<vertex x="16.256" y="13.462"/>
+<vertex x="16.636" y="-7.55"/>
+<vertex x="14.712" y="-7.55"/>
+<vertex x="14.712" y="-8.566"/>
+<vertex x="16.636" y="-8.566"/>
 </polygon>
 <polygon width="0.127" layer="1">
-<vertex x="16.256" y="12.446"/>
-<vertex x="14.732" y="12.446"/>
-<vertex x="14.732" y="11.43"/>
-<vertex x="16.256" y="11.43"/>
+<vertex x="16.636" y="-9.582"/>
+<vertex x="14.712" y="-9.582"/>
+<vertex x="14.712" y="-10.598"/>
+<vertex x="16.636" y="-10.598"/>
 </polygon>
 <polygon width="0.127" layer="1">
-<vertex x="16.256" y="10.414"/>
-<vertex x="14.732" y="10.414"/>
-<vertex x="14.732" y="9.398"/>
-<vertex x="16.256" y="9.398"/>
+<vertex x="16.636" y="-11.614"/>
+<vertex x="14.712" y="-11.614"/>
+<vertex x="14.712" y="-12.63"/>
+<vertex x="16.636" y="-12.63"/>
 </polygon>
 <polygon width="0.127" layer="1">
-<vertex x="16.256" y="8.382"/>
-<vertex x="14.732" y="8.382"/>
-<vertex x="14.732" y="7.366"/>
-<vertex x="16.256" y="7.366"/>
+<vertex x="16.636" y="-13.646"/>
+<vertex x="14.712" y="-13.646"/>
+<vertex x="14.712" y="-14.662"/>
+<vertex x="16.636" y="-14.662"/>
 </polygon>
 <polygon width="0.127" layer="1">
-<vertex x="16.256" y="6.35"/>
-<vertex x="14.732" y="6.35"/>
-<vertex x="14.732" y="5.334"/>
-<vertex x="16.256" y="5.334"/>
+<vertex x="16.636" y="-15.678"/>
+<vertex x="14.712" y="-15.678"/>
+<vertex x="14.712" y="-16.694"/>
+<vertex x="16.636" y="-16.694"/>
 </polygon>
 <polygon width="0.127" layer="1">
-<vertex x="16.256" y="4.318"/>
-<vertex x="14.732" y="4.318"/>
-<vertex x="14.732" y="3.302"/>
-<vertex x="16.256" y="3.302"/>
+<vertex x="16.636" y="-17.71"/>
+<vertex x="14.712" y="-17.71"/>
+<vertex x="14.712" y="-18.726"/>
+<vertex x="16.636" y="-18.726"/>
 </polygon>
 <polygon width="0.127" layer="1">
-<vertex x="16.256" y="2.286"/>
-<vertex x="14.732" y="2.286"/>
-<vertex x="14.732" y="1.27"/>
-<vertex x="16.256" y="1.27"/>
+<vertex x="16.636" y="-19.742"/>
+<vertex x="14.712" y="-19.742"/>
+<vertex x="14.712" y="-20.758"/>
+<vertex x="16.636" y="-20.758"/>
 </polygon>
-<pad name="REST" x="0.254" y="16.002" drill="0.6985" shape="square"/>
-<pad name="ADC" x="0.254" y="13.97" drill="0.6985" shape="square"/>
-<pad name="CH_PD" x="0.254" y="11.938" drill="0.6985" shape="square"/>
-<pad name="GPIO16" x="0.254" y="9.906" drill="0.6985" shape="square"/>
-<pad name="GPIO14" x="0.254" y="7.874" drill="0.6985" shape="square"/>
-<pad name="GPIO12" x="0.254" y="5.842" drill="0.6985" shape="square"/>
-<pad name="GPIO13" x="0.254" y="3.81" drill="0.6985" shape="square"/>
-<pad name="VCC" x="0.254" y="1.778" drill="0.6985" shape="square"/>
-<pad name="GND" x="16.002" y="1.778" drill="0.6985" shape="square"/>
-<pad name="GPIO15" x="16.002" y="3.81" drill="0.6985" shape="square"/>
-<pad name="GPIO2" x="16.002" y="5.842" drill="0.6985" shape="square"/>
-<pad name="GPIO0" x="16.002" y="7.874" drill="0.6985" shape="square"/>
-<pad name="GPIO5" x="16.002" y="9.906" drill="0.6985" shape="square"/>
-<pad name="GPIO4" x="16.002" y="11.938" drill="0.6985" shape="square"/>
-<pad name="RXD" x="16.002" y="13.97" drill="0.6985" shape="square"/>
-<pad name="TXD" x="16.002" y="16.002" drill="0.6985" shape="square"/>
+<polygon width="0.127" layer="1">
+<vertex x="16.636" y="-21.774"/>
+<vertex x="14.712" y="-21.774"/>
+<vertex x="14.712" y="-22.79"/>
+<vertex x="16.636" y="-22.79"/>
+</polygon>
+<pad name="REST" x="-0.166" y="-8.058" drill="0.003" diameter="1.15" shape="square"/>
+<pad name="ADC" x="-0.166" y="-10.09" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="CH_PD" x="-0.166" y="-12.122" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="GPIO16" x="-0.166" y="-14.154" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="GPIO14" x="-0.166" y="-16.186" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="GPIO12" x="-0.166" y="-18.218" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="GPIO13" x="-0.166" y="-20.25" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="VCC" x="-0.166" y="-22.282" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="GND" x="16.382" y="-22.282" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="GPIO15" x="16.382" y="-20.25" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="GPIO2" x="16.382" y="-18.218" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="GPIO0" x="16.382" y="-16.186" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="GPIO5" x="16.382" y="-14.154" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="GPIO4" x="16.382" y="-12.122" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="RXD" x="16.382" y="-10.09" drill="0.03" diameter="1.15" shape="square"/>
+<pad name="TXD" x="16.382" y="-8.058" drill="0.03" diameter="1.15" shape="square"/>
 </package>
 </packages>
 <symbols>
@@ -966,13 +965,13 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WI07-12" prefix="U">
+<deviceset name="ESP12" prefix="U">
 <description>Wi07-12 Footprint</description>
 <gates>
 <gate name="G$1" symbol="WI07-12" x="0" y="0"/>
 </gates>
 <devices>
-<device name="FULL" package="WI07-12">
+<device name="" package="ESP12">
 <connects>
 <connect gate="G$1" pin="0" pad="GPIO0"/>
 <connect gate="G$1" pin="12" pad="GPIO12"/>
@@ -1011,7 +1010,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <parts>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M08" device=""/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M08" device=""/>
-<part name="U1" library="ESP" deviceset="WI07-12" device="FULL"/>
+<part name="U1" library="ESP" deviceset="ESP12" device=""/>
 </parts>
 <sheets>
 <sheet>

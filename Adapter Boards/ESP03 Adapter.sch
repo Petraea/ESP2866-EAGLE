@@ -133,48 +133,48 @@
 <wire x1="12" y1="0" x2="12" y2="-17.4" width="0.127" layer="21"/>
 <wire x1="12" y1="-17.4" x2="0" y2="-17.4" width="0.127" layer="21"/>
 <wire x1="0" y1="-17.4" x2="0" y2="0" width="0.127" layer="21"/>
-<rectangle x1="0" y1="-16.9" x2="1.2" y2="-15.9" layer="1"/>
-<rectangle x1="0" y1="-14.9" x2="1.2" y2="-13.9" layer="1"/>
-<rectangle x1="0" y1="-12.9" x2="1.2" y2="-11.9" layer="1"/>
-<rectangle x1="0" y1="-10.9" x2="1.2" y2="-9.9" layer="1"/>
-<rectangle x1="0" y1="-8.9" x2="1.2" y2="-7.9" layer="1"/>
-<rectangle x1="0" y1="-6.9" x2="1.2" y2="-5.9" layer="1"/>
-<rectangle x1="0" y1="-4.9" x2="1.2" y2="-3.9" layer="1"/>
-<rectangle x1="10.8" y1="-16.9" x2="12" y2="-15.9" layer="1"/>
-<rectangle x1="10.8" y1="-14.9" x2="12" y2="-13.9" layer="1"/>
-<rectangle x1="10.8" y1="-12.9" x2="12" y2="-11.9" layer="1"/>
-<rectangle x1="10.8" y1="-10.9" x2="12" y2="-9.9" layer="1"/>
-<rectangle x1="10.8" y1="-8.9" x2="12" y2="-7.9" layer="1"/>
-<rectangle x1="10.8" y1="-6.9" x2="12" y2="-5.9" layer="1"/>
-<rectangle x1="10.8" y1="-4.9" x2="12" y2="-3.9" layer="1"/>
-<text x="-1.2" y="-4.8" size="0.8128" layer="121" align="bottom-right">VCC</text>
-<pad name="VCC" x="0.2" y="-4.4" drill="0.5" shape="square"/>
-<pad name="GPIO14" x="0.2" y="-6.4" drill="0.5" shape="square"/>
-<pad name="GPIO12" x="0.2" y="-8.4" drill="0.5" shape="square"/>
-<pad name="GPIO13" x="0.2" y="-10.4" drill="0.5" shape="square"/>
-<pad name="GPIO15" x="0.2" y="-12.4" drill="0.5" shape="square"/>
-<pad name="UTXD" x="11.8" y="-12.4" drill="0.5" shape="square"/>
-<pad name="URXD" x="11.8" y="-10.4" drill="0.5" shape="square"/>
-<pad name="GPIO18" x="11.8" y="-8.4" drill="0.5" shape="square"/>
-<pad name="CH_PD" x="11.8" y="-6.4" drill="0.5" shape="square"/>
-<pad name="ANT" x="11.8" y="-4.4" drill="0.5" shape="square"/>
-<text x="-1.2" y="-6.8" size="0.8128" layer="121" align="bottom-right">GPIO14</text>
-<text x="12.8" y="-4.8" size="0.8128" layer="121">ANT</text>
-<text x="12.8" y="-6.8" size="0.8128" layer="121">CH_PD</text>
-<text x="12.8" y="-8.8" size="0.8128" layer="121">GPIO18</text>
-<text x="12.8" y="-10.8" size="0.8128" layer="121">URXD</text>
-<pad name="GPIO2" x="0.2" y="-14.4" drill="0.5" shape="square"/>
-<pad name="GPIO0" x="0.2" y="-16.4" drill="0.5" shape="square"/>
-<pad name="NC" x="11.8" y="-14.4" drill="0.5" shape="square"/>
-<pad name="GND" x="11.8" y="-16.4" drill="0.5" shape="square"/>
-<text x="12.8" y="-12.8" size="0.8128" layer="121">UTXD</text>
-<text x="12.8" y="-14.8" size="0.8128" layer="121">NC</text>
-<text x="12.8" y="-16.8" size="0.8128" layer="121">GND</text>
-<text x="-1.2" y="-8.8" size="0.8128" layer="121" align="bottom-right">GPIO12</text>
-<text x="-1.2" y="-10.8" size="0.8128" layer="121" align="bottom-right">GPIO13</text>
-<text x="-1.2" y="-12.8" size="0.8128" layer="121" align="bottom-right">GPIO15</text>
-<text x="-1.2" y="-14.8" size="0.8128" layer="121" align="bottom-right">GPIO2</text>
-<text x="-1.2" y="-16.8" size="0.8128" layer="121" align="bottom-right">GPIO0</text>
+<rectangle x1="-0.4" y1="-16.9" x2="0.8" y2="-15.9" layer="1"/>
+<rectangle x1="-0.4" y1="-14.9" x2="0.8" y2="-13.9" layer="1"/>
+<rectangle x1="-0.4" y1="-12.9" x2="0.8" y2="-11.9" layer="1"/>
+<rectangle x1="-0.4" y1="-10.9" x2="0.8" y2="-9.9" layer="1"/>
+<rectangle x1="-0.4" y1="-8.9" x2="0.8" y2="-7.9" layer="1"/>
+<rectangle x1="-0.4" y1="-6.9" x2="0.8" y2="-5.9" layer="1"/>
+<rectangle x1="-0.4" y1="-4.9" x2="0.8" y2="-3.9" layer="1"/>
+<rectangle x1="11.2" y1="-16.9" x2="12.4" y2="-15.9" layer="1"/>
+<rectangle x1="11.2" y1="-14.9" x2="12.4" y2="-13.9" layer="1"/>
+<rectangle x1="11.2" y1="-12.9" x2="12.4" y2="-11.9" layer="1"/>
+<rectangle x1="11.2" y1="-10.9" x2="12.4" y2="-9.9" layer="1"/>
+<rectangle x1="11.2" y1="-8.9" x2="12.4" y2="-7.9" layer="1"/>
+<rectangle x1="11.2" y1="-6.9" x2="12.4" y2="-5.9" layer="1"/>
+<rectangle x1="11.2" y1="-4.9" x2="12.4" y2="-3.9" layer="1"/>
+<text x="-1.6" y="-4.8" size="0.8128" layer="121" align="bottom-right">VCC</text>
+<pad name="VCC" x="-0.2" y="-4.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<pad name="GPIO14" x="-0.2" y="-6.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<pad name="GPIO12" x="-0.2" y="-8.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<pad name="GPIO13" x="-0.2" y="-10.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<pad name="GPIO15" x="-0.2" y="-12.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<pad name="UTXD" x="12.2" y="-12.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<pad name="URXD" x="12.2" y="-10.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<pad name="GPIO18" x="12.2" y="-8.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<pad name="CH_PD" x="12.2" y="-6.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<pad name="ANT" x="12.2" y="-4.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<text x="-1.6" y="-6.8" size="0.8128" layer="121" align="bottom-right">GPIO14</text>
+<text x="13.4" y="-4.8" size="0.8128" layer="121">ANT</text>
+<text x="13.4" y="-6.8" size="0.8128" layer="121">CH_PD</text>
+<text x="13.4" y="-8.8" size="0.8128" layer="121">GPIO18</text>
+<text x="13.4" y="-10.8" size="0.8128" layer="121">URXD</text>
+<pad name="GPIO2" x="-0.2" y="-14.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<pad name="GPIO0" x="-0.2" y="-16.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<pad name="NC" x="12.2" y="-14.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<pad name="GND" x="12.2" y="-16.4" drill="0.00761875" diameter="1.016" shape="square"/>
+<text x="13.4" y="-12.8" size="0.8128" layer="121">UTXD</text>
+<text x="13.4" y="-14.8" size="0.8128" layer="121">NC</text>
+<text x="13.4" y="-16.8" size="0.8128" layer="121">GND</text>
+<text x="-1.6" y="-8.8" size="0.8128" layer="121" align="bottom-right">GPIO12</text>
+<text x="-1.6" y="-10.8" size="0.8128" layer="121" align="bottom-right">GPIO13</text>
+<text x="-1.6" y="-12.8" size="0.8128" layer="121" align="bottom-right">GPIO15</text>
+<text x="-1.6" y="-14.8" size="0.8128" layer="121" align="bottom-right">GPIO2</text>
+<text x="-1.6" y="-16.8" size="0.8128" layer="121" align="bottom-right">GPIO0</text>
 </package>
 </packages>
 <symbols>
